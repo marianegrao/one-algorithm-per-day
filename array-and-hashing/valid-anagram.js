@@ -30,8 +30,14 @@
 /**
  * APPROACH:
  * Why hash map?
- * - Set provides O(1) lookup time for checking if an element exists
- * - Set automatically handles uniqueness
+ * - Map.get() provides O(1) lookup time for checking if an element exists
+ * - Map.set() insert new key-value pair
+ */
+
+/**
+ * ADDITIONAL COMMENTS:
+ * Hash Function:
+ * - A hash function transforms an input (e.g., a string) into a fixed-size hash value, which can be used to efficiently map the input to an index in a hash table for faster data retrieval
  */
 
 class Solution {
